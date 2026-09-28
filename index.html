@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Teacher's Month!</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Google Fonts: Pacifico at Plus Jakarta Sans -->
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Colorful Background Particles -->
+  <div class="particle p1"></div>
+  <div class="particle p2"></div>
+  <div class="particle p3"></div>
+
+  <!-- Main Card Container -->
+  <main class="card-wrapper">
+    
+    <!-- Top Pill Tag -->
+    <div class="status-tag">
+      <span class="pulse-dot"></span> CELEBRATING TEACHER'S MONTH
+    </div>
+
+    <!-- Hex-Rounded Image Frame -->
+    <div class="hero-photo-container">
+      <div class="photo-glow-back"></div>
+      <div class="photo-frame">
+        <!-- Direct Image Link -->
+        <img src="fa672dd3-0005-4018-ac3b-7ff3925766a9.jpg" alt="Our Beloved Teacher and Class" class="class-image">
+      </div>
+    </div>
+
+    <!-- Header Greeting -->
+    <p class="warm-header">Para sa Pinakamagaling naming Guro,</p>
+    <h1 class="hero-title">Happy Teacher's Month! 🎉</h1>
+
+    <!-- Heartfelt Message Box -->
+    <div class="glass-message-box">
+      <p class="message-paragraph">
+        Maraming salamat po sa inyong walang sawang sipag, tiyaga, at pagmamahal sa pagtuturo sa amin araw-araw. Kayo po ang nagsisilbing gabay at inspirasyon para sa aming magandang kinabukasan!
+      </p>
+    </div>
+
+    <!-- Sign-off Section with Name & Section -->
+    <div class="sender-info">
+      <span class="heart-icon">💖</span>
+      <p class="sender-text">Sincerely & with respect,</p>
+      <h3 class="sender-name">JOHN CARLO M. TENEDERO</h3>
+      <p class="sender-section">BSIT-21006 🎓</p>
+    </div>
+
+    <!-- Interactive Button -->
+    <button class="interactive-btn" onclick="showLoveMessage()">
+      <span>I-CLICK MO 'TO TEACHER! 🎁</span>
+    </button>
+
+    <!-- Hidden Pop-up Message -->
+    <div id="hidden-card" class="pop-message-hidden">
+      🌟 Best Teacher Award Goes To You! 🌟
+    </div>
+
+  </main>
+
+  <script>
+    function showLoveMessage() {
+      var element = document.getElementById('hidden-card');
+      element.classList.toggle('pop-message-show');
+    }
+  </script>
+
+</body>
+</html>
